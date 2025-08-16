@@ -1,0 +1,653 @@
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
+  
+
+  .App {
+    text-align: center;
+    display: flex;
+    /* flex-flow: column; */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+    background: #303030;
+    color: white;
+    font-size: 14px;
+    min-height: 130vh;
+    display: grid;
+    place-items: center;
+  }
+  /* Inside Frontroom.module.css or any other CSS file */
+
+.dropzone {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 272px;
+  right: 123px;
+}
+
+.dropzone p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone div {
+  margin-top: 10px;
+}
+
+.dropzone2 {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 308px;
+  right: 193px;
+}
+
+.dropzone2 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone2 div {
+  margin-top: 10px;
+}
+.dropzone3 {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 340px;
+  right: 275px;
+}
+
+.dropzone3 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone3 div {
+  margin-top: 10px;
+}
+.dropzone4 {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 374px;
+  right: -240px;
+}
+
+.dropzone4 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone4 div {
+  margin-top: 10px;
+}
+.dropzone5 {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 340px;
+  right: 275px;
+}
+
+.dropzone5 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone5 div {
+  margin-top: 10px;
+}
+.dropzone6 {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 372px;
+  right: 121px;
+}
+
+.dropzone6 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone6 div {
+  margin-top: 10px;
+}
+.dropzone7 {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 340px;
+  right: 275px;
+}
+
+.dropzone7 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone7 div {
+  margin-top: 10px;
+}
+.dropzone8 {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 398px;
+  right: -348px;
+}
+
+.dropzone8 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone8 div {
+  margin-top: 10px;
+}
+.dropzone9 {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 406px;
+  right: 196px;
+}
+
+.dropzone9 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone9 div {
+  margin-top: 10px;
+}
+.dropzone10 {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 437px;
+  right: 119px;
+}
+
+.dropzone10 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone10 div {
+  margin-top: 10px;
+}
+.dropzone11 {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 604px;
+  right: -349px;
+}
+
+.dropzone11 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone11 div {
+  margin-top: 10px;
+}
+.dropzone12 {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 459px;
+  right: -296px;
+}
+
+.dropzone12 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone12 div {
+  margin-top: 10px;
+}
+.dropzone13 {
+  border: 2px dashed #aaa;
+  display: inline-block;
+  /* background: #c1bebe; */
+  width: 33px; 
+  height: 33px; 
+  border-radius: 35%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  bottom: 566px;
+  right: -241px;
+}
+
+.dropzone13 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dropzone13 div {
+  margin-top: 10px;
+}
+
+
+
+.droppedSeatsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between dropped seats */
+}
+
+
+
+  .ShowCase {
+    margin: 0 0 48px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: #3b3b3b;
+    padding: 12px;
+    border-radius: 4px;
+    color: #7e7e7e;
+  }
+
+  .ShowCase li {
+    margin: 0 12px;
+  }
+
+  .Office {
+    margin-bottom: 18px;
+    perspective: 400px;
+    display: grid;
+    grid-gap: 24px;
+  }
+  .profile-toast{
+    background-color: #074e0b;
+  }
+  
+  .avatar {
+    background-color: rgb(69, 159, 69);
+    border: 6px solid #074e0b;
+}
+
+.avatar img {
+    width: 100%;
+    height: 200%;
+    object-fit: cover;
+}
+  .seat {
+    display: inline-block;
+    background: #c1bebe;
+    width: 42px; /* Adjusted width */
+    height: 42px; /* Adjusted height */
+    border-radius: 35%; /* Make it a circle */
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    bottom: 341px;
+  }
+  .firstSeat {
+    position: absolute;
+    bottom: calc(65% - 0.5px);
+    left: calc(21% - 0.5px);
+  }
+
+  .secondSeat {
+    position: absolute;
+    bottom: calc(65% - 0.5px);
+    left: calc(26% - 0.5px);
+  }
+ 
+  .thirdSeat {
+    position: absolute;
+    bottom: calc(65% - 0.5px);
+    left: calc(31% - 0.5px);
+  }
+
+  .fourthSeat {
+    position: absolute;
+    bottom: calc(47% - 0.5px);
+    left: calc(21% - 0.5px);
+  }
+
+  .fifthSeat{
+    position: absolute;
+    bottom: calc(47% - 0.5px);
+    left: calc(26% - 0.5px);
+  }
+  .sixthSeat{
+    position: absolute;
+    bottom: calc(47% - 0.5px);
+    left: calc(31% - 0.5px);
+  }
+  .seventhSeat{
+    position: absolute;
+    bottom: calc(13% - 0.5px);
+    left: calc(21% - 0.5px);
+  }
+  .eigthSeat{
+    position: absolute;
+    bottom: calc(13% - 0.5px);
+    left: calc(26% - 0.5px);
+  }
+  .ninethSeat{
+    position: absolute;
+    bottom: calc(13% - 0.5px);
+    left: calc(31% - 0.5px);
+  }
+
+  .tenthSeat{
+    position: absolute;
+    bottom: calc(-5% - 0.5px);
+    left: calc(21% - 0.5px);
+  }
+
+  .eleventhSeat{
+    position: absolute;
+    bottom: calc(-5% - 0.5px);
+    left: calc(26% - 0.5px);
+  }
+
+  .twelfthSeat{
+    position: absolute;
+    bottom: calc(-5% - 0.5px);
+    left: calc(31% - 0.5px);
+  }
+
+  .thirteenthSeat{
+    position: absolute;
+    bottom: calc(65% - 0.5px);
+    left: calc(44% - 0.5px);
+
+  }
+
+  .fourteenthSeat{
+    position: absolute;
+    bottom: calc(65% - 0.5px);
+    left: calc(49% - 0.5px);
+
+  }
+
+  .fifteenthSeat{
+    position: absolute;
+    bottom: calc(65% - 0.5px);
+    left: calc(54% - 0.5px);
+
+  }
+
+  .sixteenthSeat{
+    position: absolute;
+    bottom: calc(47% - 0.5px);
+    left: calc(44% - 0.5px);
+  }
+
+  .seventeenthSeat{
+    position: absolute;
+    bottom: calc(47% - 0.5px);
+    left: calc(49% - 0.5px);
+  }
+
+  .eighteenthSeat{
+    position: absolute;
+    bottom: calc(47% - 0.5px);
+    left: calc(54% - 0.5px);
+  }
+  .nineteenthSeat{
+    position: absolute;
+    bottom: calc(65% - 0.5px);
+    left: calc(72% - 0.5px);
+  }
+  .twentiethSeat{
+    position: absolute;
+    bottom: calc(65% - 0.5px);
+    left: calc(80% - 0.5px);
+  }
+  .twentyoneSeat{
+    position: absolute;
+    bottom: calc(51% - 0.5px);
+    left: calc(72% - 0.5px);
+  }
+  .twentytwoSeat{
+    position: absolute;
+    bottom: calc(51% - 0.5px);
+    left: calc(80% - 0.5px);
+  }
+  .twentythreeSeat{
+    position: absolute;
+    bottom: calc(37% - 0.5px);
+    left: calc(80% - 0.5px);
+  }
+  .twentyfourSeat{
+    position: absolute;
+    bottom: calc(37% - 0.5px);
+    left: calc(72% - 0.5px);
+  }
+
+  /* Additional styles for selected seat indicator */
+  .seat.selected::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background: transparent;
+    border: 1px solid #7bc47f;
+    animation: show-off 0.8s;
+    visibility: hidden;
+  }
+
+  .seat.selected {
+    background: #7bc47f !important;
+  }
+
+  .seat.occupied {
+    background: #cfcfcf;
+  }
+
+  .info .count {
+    color: #7bc47f;
+  }
+
+  .info .total {
+    color: #7bc47f;
+  }
+
+  .Office .seats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Office .seats .seat {
+    margin: 6px;
+  }
+
+  .Office .seats .seat:nth-of-type(8n + 2) {
+    margin-right: 12px;
+  }
+
+  .Office .seats .seat:nth-of-type(8n + 6) {
+    margin-right: 12px;
+  }
+
+  .Office .seats .seat:not(.occupied):hover,
+  .Office .seats .seat:not(.occupied):focus {
+    cursor: pointer;
+    background-color: rgb(7, 109, 183);
+    
+    
+  }
+/* Add this CSS to your existing CSS file */
+
+.roomName {
+  color: #cc2222; 
+  font-size: 24px; 
+  font-weight: bold; 
+  margin-bottom: 726px;
+  
+}
+
+
+.chair-table-wrapper {
+  position: relative;
+}
+
+
+
+
+
+/* Seats */
+
+.available {
+  background-color: rgb(69, 159, 69);
+  border: 6px solid #074e0b;
+}
+
+
+.door{
+  width: 9px; /* Adjust the width of the wall */
+  height: 180%; /* Make the wall full height */
+  background-color: #1c1c1c; /* Adjust the color of the wall */
+  position: absolute;
+  left: calc(7% - 0.5px); /* Position the wall in the center horizontally */
+  bottom: calc(-205% - 0.5px);
+}
+
+.secondDoor{
+  width: 9px; /* Adjust the width of the wall */
+  height: 70%; /* Make the wall full height */
+  background-color: #1c1c1c; /* Adjust the color of the wall */
+  position: absolute;
+  left: calc(36% - 0.5px); /* Position the wall in the center horizontally */
+  bottom: calc(-385% - 0.5px);
+}
+
+
+
+/* Walls */
+  
+  .wall {
+  width: 8px; 
+  height: 90%;
+  background-color: #786f6f; 
+  position: absolute;
+  left: calc(20% - 0.5px); 
+  bottom: calc(-11% - 0.5px);
+}
+
+.secondWall {
+  width: 8px;
+  height: 140%; 
+  position:absolute;
+  background-color: #786f6f; 
+  transform: rotate(90deg);
+  bottom: calc(9% - 0.5px);
+  left: calc(53% - 0.5px);
+}
+.thirdWall {
+  width: 8px;
+  height: 90%; 
+  position:absolute;
+  background-color: #786f6f; 
+  
+  bottom: calc(-10.4% - 0.5px);
+  left: calc(86.3% - 0.5px);
+}
+.fourthWall{
+  width: 8px;
+  height: 140%; 
+  position:absolute;
+  background-color: #786f6f; 
+  transform: rotate(90deg);
+  bottom: calc(-81% - 0.5px);
+  left: calc(53% - 0.5px);
+}
+
+  @keyframes show-off {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+      visibility: visible;
+    }
+
+    100% {
+      transform: scale(3);
+      opacity: 0;
+    }
+  }
